@@ -1,0 +1,116 @@
+App.css * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+.header {
+  background-color: whitesmoke;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.header h1 {
+  font-size: 5rem;
+  font-weight: 500;
+  color: black;
+}
+
+.input-box {
+  width: 500px;
+  padding: 3rem 2rem 1rem;
+  position: relative;
+  margin: 2rem auto;
+  box-shadow: 0 1rem 1rem rgb(15, 7, 7);
+  border-radius: 1rem;
+}
+
+.input-box input,
+.input-box textarea {
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+  color: black;
+  outline: none;
+  border: 1;
+  margin-bottom: 1rem;
+}
+
+.input-box button {
+  background-color: #ff416e;
+  cursor: pointer;
+  padding: 0.2rem;
+  border-radius: 0%;
+}
+
+.body {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100px;
+}
+
+.notes {
+  margin: 10px;
+  width: 250px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0.5rem 1rem gray;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.notes h2 {
+  font-size: 3rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 500;
+  color: dodgerblue;
+  margin-bottom: 0.8rem;
+}
+
+.notes p {
+  font-size: 1.3rem;
+  font-family: sans-serif;
+  font-weight: 500;
+  color: aqua;
+  margin-bottom: 0.8rem;
+}
+
+.notes input {
+  width: 20px;
+  height: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.buttonFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.buttonFlex button {
+  background-color: #ff416e !important;
+  border: 2px solid transparent !important;
+  color: #fff;
+  min-width: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-right: 10px !important;
+  cursor: pointer;
+}
+.flexColor {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.header img {
+  width: 100px;
+  height: 110px;
+  justify-content: left;
+}
